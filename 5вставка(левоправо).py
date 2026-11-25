@@ -16,7 +16,4 @@ with open("input.txt", "r") as file:
 
 insertion_sort(numbers)
 
-with open("output.txt", "w") as file:
-    file.write(" ".join(map(str, numbers)))
-
 print("Результат:", numbers)
